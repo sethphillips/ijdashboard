@@ -16,19 +16,19 @@ Video.reopenClass({
 	FIXTURES:[
 		{
 			id:1,
-			title:'iJet Mission Video',
-			video_src_mp4:'/video/yemen.mp4',
-			video_src_webm:'/video/yemen.webm',
-			video_src_ogg:'/video/yemen.ogg',
-			btn_img: '/img/btn_yemen.jpg',
-		},
-		{
-			id:2,
 			title:'Traveler Video',
 			video_src_mp4:'',
 			video_src_webm:'',
 			video_src_ogg:'',
 			btn_img: '/img/btn_traveler_video.jpg',
+		},
+		{
+			id:2,
+			title:'Yemen Case Study',
+			video_src_mp4:'/video/yemen.mp4',
+			video_src_webm:'/video/yemen.webm',
+			video_src_ogg:'/video/yemen.ogg',
+			btn_img: '/img/btn_yemen.jpg',
 		},
 		{
 			id:3,
