@@ -1,0 +1,27 @@
+.secondary-button{
+
+	
+	display: inline-block;
+
+	img{
+		width:100%;
+	}
+
+	&.top-button{
+		display: block;
+
+	}
+
+	&.bottom-button{
+		width:20%;
+		margin-left:10%;
+		&:nth-child(3){
+			width:22%;
+		}
+
+	}
+
+	&.sleep-button{
+
+	}
+}

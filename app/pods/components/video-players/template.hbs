@@ -1,0 +1,13 @@
+{{#if sleep}}
+<video class="video-player" id="video-playerfff" loop >
+	<source src="{{ source_mp4 }}" type="video/mp4">
+	
+</video>  
+{{else}}
+
+<video class="video-player" id="video-playerfff" controls data-id="{{ videoID }}" >
+	<source src="{{ source_mp4 }}" type="video/mp4">
+	<source src="{{ source_webm }}" type="video/webm">
+	<source src="{{ source_ogg }}" type="video/ogg">
+</video>
+{{/if}}

@@ -1,3 +1,38 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<div class="container">
+	
+	<div class="top-buttons">
+		
+		{{#each topWebsites as |website|}}
+			{{!-- {{#link-to 'website' website.id class="secondary-button top-button"}}
+				<img src="{{ website.btn_img }}" data-id="{{ website.id }}">
+			{{/link-to}} --}}
 
-{{outlet}}
+			<a href="{{ website.url }}" target="_blank" class="secondary-button top-button">
+				<img src="{{ website.btn_img }}" data-id="{{ website.id }}">
+			</a>
+		{{/each}}
+
+		{{#link-to 'sleep'}}
+			<div class="secondary-button sleep-button"><img src="/img/btn_sleep_mode.jpg"></div>
+		{{/link-to}}
+
+	</div>
+
+	{{ outlet }}
+	
+
+	<div class="bottom-buttons">
+
+		{{#each bottomWebsites as |website|}}
+			{{!-- {{#link-to 'website' website.id class="secondary-button bottom-button"}}
+				<img src="{{ website.btn_img }}" data-id="{{ website.id }}">
+			{{/link-to}} --}}
+
+			<a href="{{ website.url }}" target="_blank" class="secondary-button bottom-button">
+				<img src="{{ website.btn_img }}" data-id="{{ website.id }}">
+			</a>
+		{{/each}}
+		
+	</div>
+
+</div>

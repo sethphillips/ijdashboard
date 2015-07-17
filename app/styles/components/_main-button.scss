@@ -1,0 +1,13 @@
+.main-button-container{
+	text-align: center;
+	padding: 2% 0;
+	.main-button{
+		display: inline-block;
+		width: 15%;
+		margin:0 3% 2% 3%;
+
+		img{
+			width:100%;
+		}
+	}
+}

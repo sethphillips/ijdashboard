@@ -1,0 +1,14 @@
+
+
+{{#modal-dialog container-class="video-container" close="closeVideo" alignment="top" }}
+	
+	{{!-- {{#ivy-videojs poster=model.btn_img class="video"autoresize=true naturalWidth=1280 naturalHeight=720 controls=true autoplay=true preload="auto"}}
+	  {{ivy-videojs-source src=model.video_src_mp4 type="video/mp4"}}
+	  {{ivy-videojs-source src=model.video_src_webm type="video/webm"}}
+	  {{ivy-videojs-source src=model.video_src_ogg type="video/ogg"}}
+	{{/ivy-videojs}} --}}
+
+	{{ video-players source_mp4=model.video_src_mp4 source_webm=model.video_src_webm
+	source_ogg=model.video_src_ogg ended='ended' videoID=model.id}}
+
+{{/modal-dialog}}

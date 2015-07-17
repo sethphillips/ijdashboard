@@ -1,0 +1,22 @@
+<div class="content">
+	
+	<div class="main-button-container">
+		
+		{{#each mainWebsites as |website|}}
+			{{!-- {{#link-to 'website' website.id class="main-button"}}
+				<img src="{{ website.btn_img }}" data-id="{{ website.id }}">
+			{{/link-to}} --}}
+
+			<a href="{{ website.url }}" target="_blank" class="main-button">
+				<img src="{{ website.btn_img }}" data-id="{{ website.id }}">
+			</a>
+		{{/each}}
+<div class="clearfix"></div>
+		{{#each model.videos as |video|}}
+			{{#link-to 'video' video.id class="main-button"}}
+				<img src="{{ video.btn_img }}" data-id="{{ video.id }}">
+			{{/link-to}}
+		{{/each}}
+	</div>
+
+</div>

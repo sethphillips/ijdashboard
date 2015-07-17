@@ -1,0 +1,26 @@
+.video-container{
+	position: absolute;
+	width: 65%;
+	top: 22%;
+	left: 17.5%;
+	box-shadow:10px 10px 25px 0px rgba(0, 0, 0, 0.6);
+	padding:0;
+
+	background: transparent;
+	
+	.video{
+		margin-bottom:-8px;
+		video{
+			width:100%;
+		}
+	}
+}
+
+.sleep-video{
+	height:100%;
+	border:none;
+	padding:0;
+	video{
+		width:100%;
+	}
+}

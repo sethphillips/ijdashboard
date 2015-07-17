@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'i-jet',
+    podModulePrefix: 'i-jet/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
