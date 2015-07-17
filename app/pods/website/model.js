@@ -27,7 +27,7 @@ Website.reopenClass({
 		{
 			id: 102,
 			title:'Worldcue GCC Website Login',
-			url:'https://gcc.worldcue.com/',
+			url:'https://secure.worldcue.com/openssoDistauth/UI/Login?goto=https%3A%2F%2Fgcc.worldcue.com%2Fgroup%2Fworldcue',
 			username:'hannam',
 			password:'Password,5',
 			btn_img:'img/btn_worldcue_gcc.jpg',
@@ -36,21 +36,21 @@ Website.reopenClass({
 		{
 			id: 103,
 			title:'Worldcue Traveler Website Login',
-			url:'https://traveler.worldcue.com/',
+			url:'https://secure.worldcue.com/openssoDistauth/UI/Login?goto=https%3A%2F%2Ftraveler.worldcue.com%2Fdirector%2Fdirect',
 			username:'hannama',
 			password:'Password,5',
 			btn_img:'img/btn_worldcue_traveler.jpg',
 			placement:'main'
 		},
-		{
-			id: 104,
-			title:'Critical Trac Website Login',
-			url:'https://www.sicurotrack.com/Login.aspx',
-			username:'',
-			password:'',
-			btn_img:'img/btn_critical_trac.jpg',
-			placement:'main'
-		},
+		// {
+		// 	id: 104,
+		// 	title:'Critical Trac Website Login',
+		// 	url:'https://www.sicurotrack.com/Login.aspx',
+		// 	username:'',
+		// 	password:'',
+		// 	btn_img:'img/btn_critical_trac.jpg',
+		// 	placement:'main'
+		// },
 		{
 			id: 105,
 			title:'Worldcue Application Platform',
@@ -63,7 +63,7 @@ Website.reopenClass({
 		{
 			id: 106,
 			title:'Daily Brief',
-			url:'http://www.ijet.com',
+			url:'http://www.ijet.com/node/1437',
 			username:'',
 			password:'',
 			btn_img:'img/btn_daily_brief.jpg',
@@ -72,7 +72,7 @@ Website.reopenClass({
 		{
 			id: 107,
 			title:'Health Monitor',
-			url:'http://www.ijet.com',
+			url:'http://www.ijet.com/node/1438',
 			username:'',
 			password:'',
 			btn_img:'img/btn_health_monitor.jpg',
@@ -81,7 +81,7 @@ Website.reopenClass({
 		{
 			id: 108,
 			title:'Monthly Forecast',
-			url:'http://www.ijet.com',
+			url:'http://www.ijet.com/node/1439',
 			username:'',
 			password:'',
 			btn_img:'img/btn_monthly_forecast.jpg',
