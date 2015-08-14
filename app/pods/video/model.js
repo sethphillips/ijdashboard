@@ -17,9 +17,9 @@ Video.reopenClass({
 		{
 			id:1,
 			title:'Traveler Video',
-			video_src_mp4:'',
-			video_src_webm:'',
-			video_src_ogg:'',
+			video_src_mp4:'/video/traveler.mp4',
+			video_src_webm:'/video/traveler.webm',
+			video_src_ogg:'/video/traveler.ogv',
 			btn_img: '/img/btn_traveler_video.jpg',
 		},
 		{
@@ -27,7 +27,7 @@ Video.reopenClass({
 			title:'Yemen Case Study',
 			video_src_mp4:'/video/yemen.mp4',
 			video_src_webm:'/video/yemen.webm',
-			video_src_ogg:'/video/yemen.ogg',
+			video_src_ogg:'/video/yemen.ogv',
 			btn_img: '/img/btn_yemen.jpg',
 		},
 		{
@@ -35,7 +35,7 @@ Video.reopenClass({
 			title:'Critical Trac Video',
 			video_src_mp4:'/video/critical_trac.mp4',
 			video_src_webm:'/video/critical_trac.webm',
-			video_src_ogg:'/video/critical_trac.ogg',
+			video_src_ogg:'/video/critical_trac.ogv',
 			btn_img: '/img/btn_critical_trac_video.jpg',
 		},
 		{
@@ -43,7 +43,7 @@ Video.reopenClass({
 			title:'GIOC Video',
 			video_src_mp4:'/video/gioc.mp4',
 			video_src_webm:'/video/gioc.webm',
-			video_src_ogg:'/video/gioc.ogg',
+			video_src_ogg:'/video/gioc.ogv',
 			btn_img: '/img/btn_gioc_video.jpg',
 		},
 	],
